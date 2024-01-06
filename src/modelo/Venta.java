@@ -12,7 +12,7 @@ public class Venta {
 
     public Venta() {
     }
-
+    
     public Venta(Integer id, LocalDate fecha, Vendedor vendedor, Auto auto) {
         this.id = id;
         this.fecha = fecha;
