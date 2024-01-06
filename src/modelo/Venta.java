@@ -53,8 +53,6 @@ public class Venta {
     }
 
     public int comparar(String criterio, String parametro) throws EmptyException {
-        controlador.Venta.VendedorArchivos vendedor = new controlador.Venta.VendedorArchivos();
-        controlador.Venta.AutoArchivos auto = new controlador.Venta.AutoArchivos();
         switch (criterio) {
             case "Num. Venta":
                 return this.id.compareTo(Integer.valueOf(parametro));
